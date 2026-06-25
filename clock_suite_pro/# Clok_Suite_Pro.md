@@ -1,8 +1,9 @@
-# Clok Suite Pro
+# Clock Suite Pro
 
 Python + Tkinter で作成した多機能デスクトップ時計アプリです。
 
-シンプルな時計機能から、タイマー・ストップウォッチ・アラーム・世界時計までまとめた「時間管理ツール」を目指して開発しています。
+時計機能を中心に、タイマー・ストップウォッチ・アラーム・世界時計などを統合した
+GUI時間管理ツールとして開発しています。
 
 ## Features
 
@@ -13,11 +14,11 @@ Python + Tkinter で作成した多機能デスクトップ時計アプリです
 
 ### ⏱ タイマー
 - 指定時間のカウントダウン
-- 終了時通知
+- 終了通知
 
 ### ⏲ ストップウォッチ
-- スタート / ストップ / リセット対応
-- 経過時間計測
+- スタート / ストップ / リセット
+- ラップタイム計測
 
 ### 🔔 アラーム
 - 指定時刻で通知
@@ -27,9 +28,9 @@ Python + Tkinter で作成した多機能デスクトップ時計アプリです
 - 複数地域の時刻確認
 - タイムゾーン対応
 
-### 💡 ライトモード切替
-- UIテーマ変更
-- 視認性向上
+### 💡 テーマ切替
+- ライト / ダークモード切替
+- UIの視認性向上
 
 ---
 
@@ -39,25 +40,12 @@ Python + Tkinter で作成した多機能デスクトップ時計アプリです
 
 ---
 
-# Requirements
+# Technology
 
-- Python 3.x
-
-使用ライブラリ:
-
-- tkinter
-- datetime
-- time
-- threading
-- zoneinfo
-
-※ tkinter は Python 標準ライブラリです。
+- Python 3
+- Tkinter
+- PyInstaller
 
 ---
 
-# Installation
-
-Clone:
-
-```bash
-git clone https://github.com/yourname/clok_suite_pro.git
+# Project Structure
